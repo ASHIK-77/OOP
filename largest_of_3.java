@@ -10,18 +10,14 @@ import java.util.Scanner;
 public class largest_of_3 {
     public static void main(String[] args)
     {
+        int largest,a,b,c;
      Scanner sc = new Scanner(System.in);
      //input three numbers
-     System.out.print("Enter number 1: ");
-     int a = sc.nextInt();
-
-     System.out.print("Enter number 2: ");
-     int b = sc.nextInt();
-
-     System.out.print("Enter number 3: ");
-     int c = sc.nextInt();
+     System.out.print("Enter three numbers ");
+     a = sc.nextInt();
+     b = sc.nextInt();
+     c = sc.nextInt();
      
-     int largest;
      if(a>b && a>c)
      {
         largest = a;
@@ -34,6 +30,7 @@ public class largest_of_3 {
         largest = c;
      }
      System.out.println("Largest is:" + largest);
+        sc.close();
     }
     
 }
