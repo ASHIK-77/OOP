@@ -40,7 +40,7 @@ public class student_grade {
         }else if(score == 24)
         {
             grade = "P";
-        }else if (score < 24 && score >0)
+        }else if (score < 24 && score >=0)
         {
           grade = "F";
         }else{
