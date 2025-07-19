@@ -1,4 +1,10 @@
-package M1;
+/*
+ * Program: Even number
+ * Author : Ashik.S
+ * Date   : July 19, 2025
+ * Description: This program is used to even numbers from 1 to 20.
+ *Time:09:49PM
+ */package M1;
 
 public class even {
 
