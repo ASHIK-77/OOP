@@ -22,12 +22,12 @@ public class Box_vol {
 		System.out.print("Enter the height of the box: ");
 		mybox.height = sc.nextDouble();
 		System.out.print("Enter the width of the box: ");
-        mybox.width = sc.nextDouble();
-        System.out.print("Enter the depth of the box: ");
-        mybox.depth = sc.nextDouble();
-        vol = mybox.width * mybox.height * mybox.depth;
-        System.out.println("volume is: "+vol);
-        sc.close();
+                mybox.width = sc.nextDouble();
+                System.out.print("Enter the depth of the box: ");
+                mybox.depth = sc.nextDouble();
+                vol = mybox.width * mybox.height * mybox.depth;
+                System.out.println("volume is: "+vol);
+                sc.close();
 	}
 
 }
