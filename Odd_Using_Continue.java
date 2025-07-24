@@ -16,7 +16,6 @@ public class Odd_Using_Continue {
 	int n;
 	System.out.print("Enter the limit : ");
 	n = sc.nextInt();
-	System.out.print("Vowels are ");
 	for(int i=1;i<=n;i++)
 	{
 		if(i%2 == 0)
